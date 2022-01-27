@@ -11,7 +11,18 @@
   </head>
   <body>
  
-  <div class="cr-price-ticker-widget" data-site-url="https://cryptorank.io" data-api-url="https://api.cryptorank.io" data-coin-key="bitcoin" data-base-key="united-states-dollar" data-stat-key="united-states-dollar" data-ticker="true" data-market-cap="true" data-volume="true" data-stats="true"><a target="_blank" rel="noopener" href="https://cryptorank.io/price/bitcoin">Bitcoin Price by Cryptorank</a></div><script src="https://cryptorank.io/widget/price-ticker.js"></script>
+  <div id="cr-widget-marquee"
+        data-coins="bitcoin,ethereum,tether,ripple,cardano"
+        data-theme="light"
+        data-show-symbol="true"
+        data-show-icon="true"
+        data-show-period-change="true"
+        data-period-change="24H"
+        data-api-url="https://api.cryptorank.io/v0"
+      >
+        <a href="https://cryptorank.io">Coins by Cryptorank</a>
+        <script src="https://cryptorank.io/widget/marquee.js"></script>
+      </div>
     
   </body>
 </html>
